@@ -1,0 +1,90 @@
+{
+    "features": [
+      {
+        "id": 1,
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd2B4RLxl_s3S5ybYAi4w6CkVxKdoQJwCp9A&s",
+        "title": "Expert Instructors",
+        "description": "Learn from industry experts with years of experience."
+      },
+      {
+        "id": 2,
+        "icon": "https://www.academyofmine.com/assets/img/self-paced-learning-guide-featuredimage.webp",
+        "title": "Flexible Schedule",
+        "description": "Access courses anytime, anywhere at your own pace."
+      },
+      {
+        "id": 3,
+        "icon": "https://img.freepik.com/free-photo/standard-quality-control-collage_23-2149631023.jpg?semt=ais_hybrid",
+        "title": "Certifications",
+        "description": "Earn recognized certificates upon course completion."
+      },
+      {
+        "id": 4,
+        "icon": "https://strategyeducation.co.uk/wp-content/uploads/2023/07/Guide-to-Using-Quizzes-in-the-Classroom.jpg",
+        "title": "Interactive Quizzes",
+        "description": "Test your knowledge with interactive quizzes and assessments."
+      },
+      {
+        "id": 5,
+        "icon": "https://images.unsplash.com/photo-1504607798333-52a30db54a5d",
+        "title": "Career Guidance",
+        "description": "Get personalized career advice and job assistance."
+      }
+    ],
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Fairy Kim",
+        "feedback": "This platform has been a game changer in my learning journey.",
+        "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "feedback": "The courses are well-structured and the instructors are top-notch.",
+        "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a"
+      },
+      {
+        "id": 3,
+        "name": "Amelia Johnson",
+        "feedback": "I appreciate the hands-on projects, they helped me apply what I learned.",
+        "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956"
+      }
+    ],
+    "newsletterSubscription": {
+      "status": "success",
+      "message": "You have successfully subscribed to our newsletter!"
+    },
+    "faq": [
+        {
+            "question": "What courses do you offer?",
+            "answer": "We offer a wide variety of courses including web development, data science, digital marketing, graphic design, and more."
+        },
+        {
+            "question": "How do I enroll in a course?",
+            "answer": "Simply create an account, browse our courses, and click the enroll button to get started."
+        },
+        {
+            "question": "Are the courses self-paced?",
+            "answer": "Yes, all of our courses are self-paced, so you can learn at your own convenience."
+        },
+        {
+            "question": "Do I get a certificate after completing a course?",
+            "answer": "Yes, you will receive a certificate upon successful completion of any course."
+        },
+        {
+            "question": "Can I access the courses on mobile?",
+            "answer": "Absolutely! Our courses are fully responsive and can be accessed on any mobile device."
+        },
+        {
+            "question": "What is the refund policy?",
+            "answer": "We offer a 30-day refund policy if you’re unsatisfied with a course for any reason."
+        },
+        {
+            "question": "Do you offer any support during the courses?",
+            "answer": "Yes, we have a dedicated support team and community forums to assist you with any questions."
+        }
+    ]
+    
+  }
+  

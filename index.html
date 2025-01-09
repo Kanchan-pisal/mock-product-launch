@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mock Product Launch - Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="images/logo.png"
+            alt="Logo"
+            class="rounded-circle"
+            width="40"
+            height="40"
+          />
+          <span class="ms-2">Course</span>
+        </a>
+        <button
+          id="dark-mode-toggle-mobile"
+          class="btn btn-light d-lg-none me-2"
+        >
+          <i class="bi bi-moon"></i>
+        </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-flex align-items-center">
+          <button id="dark-mode-toggle-desktop" class="btn btn-light">
+            <i class="bi bi-moon"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+      <div class="container">
+        <div class="hero text-center">
+          <h1>Welcome to the Course Website</h1>
+          <p class="lead">
+            Learn from the best instructors, anytime, anywhere.
+          </p>
+          <a href="about.html" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course Section -->
+    <section id="features" class="section">
+      <div class="container text-center">
+        <h2 class="section-heading">Key Features</h2>
+        <div class="row" id="features-container">
+          <!-- Cards will be dynamically inserted here using JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+      <div class="container text-center">
+        <h2 class="section-heading">Testimonials</h2>
+        <div class="slider-container">
+          <button id="prevBtn" class="control-btn prev-btn">&lt;</button>
+          <div id="testimonial-slider" class="testimonial-slider">
+            <!-- Testimonials will be inserted here dynamically -->
+          </div>
+          <button id="nextBtn" class="control-btn next-btn">&gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="newsletter-container">
+      <h2>Newsletter</h2>
+      <div class="newsletter-form">
+        <form id="newsletterForm" onsubmit="return validateForm()">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+            <div class="error-message" id="nameError"></div>
+          </div>
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <div class="error-message" id="emailError"></div>
+          </div>
+          <button type="submit" class="form-button">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Back to Top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
