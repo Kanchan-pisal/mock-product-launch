@@ -54,7 +54,7 @@ body.dark-mode .feature-card p {
 
 /* Hero Section */
 #home {
-  background-image: url("images/hero_section2.jpg");
+  background-image: url("hero_section2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
